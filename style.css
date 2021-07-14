@@ -39,6 +39,7 @@
     background: #E02C6D;
     color: #fff;
     margin-top: 20px;
+    transition: .4s;
 }
 .btn a:hover{
     background: crimson;
