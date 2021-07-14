@@ -457,4 +457,8 @@ footer .logo img{
         width: 100%;
         height: auto;
     }
+    .partner-section .content {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
