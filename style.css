@@ -14,7 +14,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.btn a{
+/* .btn a{
     position: relative;
     display: inline-block;
     padding: 10px 25px;
@@ -25,6 +25,20 @@
     font-weight: 500;
     margin-top: 20px;
     transition: .4s;
+} */
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: .4s;
+}
+.btn a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: #E02C6D;
+    color: #fff;
+    margin-top: 20px;
 }
 .btn a:hover{
     background: crimson;
@@ -174,6 +188,7 @@ nav.main-menu{
     font-weight: 400;
     color: #6C6C6C;
     margin-top: 7px;
+    line-height: 26px;
 }
 
 
@@ -333,7 +348,7 @@ footer .logo img{
         padding: 0 20px;
     }
     .banner-sec {
-        height: 100vh;
+        height: 700px;
     }
     .banner-image {
         width: 100%;
@@ -347,17 +362,18 @@ footer .logo img{
         align-items: center;
         justify-content: center;
         row-gap: 50px;
+        margin-top: 55px;
     }
     .banner-text {
         width: 85%;
     }
     .banner-text h1 {
         font-size: 36px;
-        line-height: 48px;
+        line-height: 50px;
         padding-right: 0;
     }
     .banner-image img {
-        width: 100%;
+        width: 330px;
     }
     .player-info-sec {
         margin: 30px 0;
